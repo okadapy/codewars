@@ -6,6 +6,7 @@ mod bool_to_word;
 mod number_to_string;
 mod opposite_number;
 mod remove_first_and_last;
+mod string_repeat;
 
 fn main() {
     println!("Hello, world!");
