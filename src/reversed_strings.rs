@@ -1,6 +1,6 @@
-    fn solution(phrase: &str) -> String {
-        phrase.chars().rev().collect::<String>()
-    }
+fn solution(phrase: &str) -> String {
+    phrase.chars().rev().collect::<String>()
+}
 
 #[cfg(test)]
 mod test {

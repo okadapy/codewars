@@ -20,6 +20,6 @@ mod test {
 
     #[test]
     fn test_all_negatives() {
-        assert_eq!(positive_sum(&[-1,-2,-3,-4,-5]), 0);
+        assert_eq!(positive_sum(&[-1, -2, -3, -4, -5]), 0);
     }
 }
