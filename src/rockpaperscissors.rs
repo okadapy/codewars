@@ -1,5 +1,5 @@
 fn rps(p1: &str, p2: &str) -> &'static str {
-    if (p1 == p2) {
+    if p1 == p2 {
         return "Draw!";
     }
     match (p1, p2) {
